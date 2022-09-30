@@ -1,0 +1,81 @@
+.all_page {
+    background-color: #5ED5A8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 414px;
+    max-height: 896px;
+    width: 100%;
+    height: 100%;
+    background-color: #1B232A;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    line-height: 17px;
+    letter-spacing: 0.0264em;
+}
+
+.swiper_panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Swiper {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    top: 110px;
+    height: 600px;
+}
+
+.swiperSlide {
+    position: relative;
+    text-align: center;
+}
+
+.rectangle {
+    width: 414px;
+    height: 124px;
+    position: absolute;
+    bottom: 215px;
+    left: 0;
+    background: linear-gradient(180deg, rgba(27, 35, 42, 0) 0%, #1B232A 100%);
+
+}
+
+.title {
+    position: relative;
+    top: 23px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.0264em;
+}
+
+.text {
+    position: relative;
+    padding: 15px;
+    top: 7px;
+    opacity: 0.3;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.0264em;
+}
+
+.button {
+    background-color: #5ED5A8;
+    border: none;
+    width: 180px;
+    height: 54px;
+    border-radius: 16px;
+    position: absolute;
+    bottom: -190px;
+    cursor: pointer;
+}

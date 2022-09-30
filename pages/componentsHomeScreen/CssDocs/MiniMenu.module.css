@@ -1,0 +1,55 @@
+.mini_menu {
+    position: absolute;
+    height: 160px;
+    width: 326px;
+    top: 105px;
+    left: 44px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+}
+
+.second_row {
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+}
+
+.mid_icon {
+    width: 58px;
+    height: 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.mid_icon_setting {
+    position: relative;
+    top: 8px;
+    width: 58px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.mid_icon_title {
+    color: #777777;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+}

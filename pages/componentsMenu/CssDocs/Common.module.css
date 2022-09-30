@@ -1,0 +1,46 @@
+.common {
+    position: relative;
+    height: 93px;
+    width: 366px;
+    left: 0;
+    top: 10px;
+}
+
+.common_title {
+    position: absolute;
+    height: 22px;
+    width: 75px;
+    left: 0px;
+    top: 0px;
+    color: #C1C7CD;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.common_icons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 330px;
+    top: 35px;
+    left: 10px; 
+}
+
+.common_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.common_icon_title {
+    position: relative;
+    bottom: 8px;
+    height: 14px;
+    width: 43px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #C1C7CD;
+}

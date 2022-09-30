@@ -1,0 +1,60 @@
+.btn {
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    background: rgba(62, 71, 79, 0.1);
+    border: 2px dashed rgba(62, 71, 79, 0.5);
+    border-radius: 12px;
+    height: 60px;
+    width: 366px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.0264em;
+    text-align: center;
+    color: #777777;
+}
+
+.favorite {
+    width: 414px !important;
+    max-height: 400px !important;
+    border-radius: 40px !important;
+    background-color: #161C22 !important;
+}
+
+.favorite_header {
+    position: absolute;
+    display: flex;
+    left: 18px;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: 0.0264em;
+    color: #5ED5A8;
+    background: linear-gradient(180deg, rgba(94, 213, 168, 0) 20.83%, rgba(94, 213, 168, 0.15) 100%);}
+
+.favorite_text_side {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 192px;
+    height: 20px;
+    margin: 0px !important;
+}
+
+.add_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add_fav {
+    margin-left: 8px;
+}

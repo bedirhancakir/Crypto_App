@@ -1,0 +1,154 @@
+.all_page {
+    background-color: #5ED5A8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 414px;
+    max-height: 896px;
+    width: 100%;
+    height: 100%;
+    background-color: #1B232A;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    line-height: 17px;
+    letter-spacing: 0.0264em;
+}
+
+.account_background {
+    position: absolute;
+    z-index: 0;
+    top: 160px;
+    opacity: 0.3;
+}
+
+.header {
+    position: relative;
+    width: 376px;
+    height: 50px;
+    top: 42px;
+    left: 24px;
+}
+
+.back_icon {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    cursor: pointer;
+}
+
+.back_title {
+    position: absolute;
+    color: #A7AFB7;
+    top: 11px;
+    left: 54px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+}
+
+.code_title {
+    position: absolute;
+    width: 310px;
+    height: 46px;
+    left: 24px;
+    top: 117px;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.0264em;
+    color: #fff;
+}
+
+.code_text {
+    position: absolute;
+    height: 34px;
+    width: 337px;
+    left: 24px;
+    top: 170px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.0264em;
+    color: #A7AFB7;
+}
+
+.sent_number {
+    position: absolute;
+    color: #5ED5A8;
+    height: 17px;
+    width: 106px;
+    left: 24px;
+    top: 205px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.pincode {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 54px;
+    width: 340px;
+    left: 38px;
+    top: 260px;
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+}
+
+.code_bar {
+    border: none;
+    border-radius: 12px;
+    height: 54px;
+    width: 60px;
+    background-color: #161C22;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.code_timing {
+    position: absolute;
+    height: 17px;
+    width: 113px;
+    left: 151px;
+    top: 335px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #A7AFB7;
+}
+
+.resend_link {
+    position: absolute;
+    height: 17px;
+    width: 78px;
+    left: 164px;
+    top: 357px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #5ED5A8;
+}
+
+
+.continue_button {
+    position: absolute;
+    background-color: #5ED5A8;
+    color: #171D22;
+    border: none;
+    height: 54px;
+    width: 88.4%;
+    left: 24px;
+    top: 418px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.0264em;
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.card {
+    position: relative;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.first_desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.second_desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.remove_btn {
+    border: none;
+    height: 100%;
+    width: 50px;
+    color: #DD4B4B;
+    font-size: 11px;
+    line-height: 24px;
+    border-radius: 5px;
+    background: linear-gradient(225deg, rgba(237, 56, 40, 0) 20.83%, rgba(239, 46, 46, 0.15) 100%);
+}
+
+.title1,
+.price {
+    height: 24px;
+    width: 50px;
+    left: 77px;
+    top: 189px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.second_desc,
+.first_desc {
+    font-size: 11px;
+    line-height: 24px;
+}
+
+.desc {
+    color: #5ED5A8;
+}
+
+.title2 {
+    color: #777777;
+}
+
+.empty {
+    position: relative;
+    left: 100px;
+    width: 166px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #777777;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.empty_title {
+    text-align: center;
+    margin-top: 20px;
+}

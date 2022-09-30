@@ -1,0 +1,51 @@
+.tab_menu {
+    position: relative;
+    top: 25px;
+    left: 24px;
+}
+
+.change_screen {
+    position: relative;
+    height: 622px;
+    width: 366px;
+}
+
+.buttons {
+    background-color: #161C22;
+    margin: 0px;
+    padding: 0;
+    height: 42px;
+    width: 366px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.tab_button {
+    height: 35px;
+    width: 89px;
+    margin: 3px;
+    border-radius: 12px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.change_content {
+    position: relative;
+    top: 30px;
+}
+
+.Home {
+    width: 366px;
+    height: 800px;
+}

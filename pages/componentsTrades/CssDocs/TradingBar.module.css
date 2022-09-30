@@ -1,0 +1,75 @@
+.trading_bar {
+    width: 100%;
+    height: 48px;
+    display: flex;
+}
+
+.buy,
+.sell {
+    border: none;
+    width: 50%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.0264em;
+    cursor: pointer;
+}
+
+.buy {
+    background: #5ED5A8;
+    box-shadow: 0px 8px 20px rgba(94, 213, 168, 0.16);
+}
+
+.sell {
+    background: #DD4B4B;
+    box-shadow: 0px 8px 20px rgba(221, 75, 75, 0.16);
+}
+
+.sliding {
+    width: 414px !important;
+    max-height: 400px !important;
+    border-radius: 40px !important;
+    box-shadow: none !important;
+    background-color: #1B232A !important;    
+}
+
+.sliding_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    top: 3px;
+    position: absolute;
+    left: 0;
+    
+}
+
+.sliding_text_side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 192px;
+    height: 20px;
+    margin: 5px 0 0 0 !important;
+
+}
+
+.add_circle {
+    display: flex;
+    align-items: center;
+}
+
+.grey_text {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.0264em;
+    color: #A7AFB7;
+}
+
+.grey_text:nth-child(2) {
+    color: #fff;
+}

@@ -1,0 +1,40 @@
+.navigation_bar {
+    position: relative;
+    background-color: #1B232A;
+    height: 76px;
+    width: 366px;
+    left: 24px;
+    bottom: 0;
+    border-radius: 20px;
+    box-shadow: 0px 12px 50px rgba(22, 28, 34, 0.5);
+}
+
+.navigation {
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 43px;
+    height: 52px;
+    cursor: pointer;
+}
+
+.icon_title {
+    position: relative;
+    top: 5px;
+    color: #C1C7CD;
+    height: 14px;
+    width: 43px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+}

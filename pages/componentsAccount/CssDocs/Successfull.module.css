@@ -1,0 +1,85 @@
+.all_page {
+    background-color: #5ED5A8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 414px;
+    max-height: 896px;
+    width: 100%;
+    height: 100%;
+    background-color: #1B232A;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    line-height: 17px;
+    letter-spacing: 0.0264em;
+}
+
+.account_background {
+    position: absolute;
+    z-index: 0;
+    top: 160px;
+    opacity: 0.3;
+}
+
+.astro_img {
+    position: absolute;
+    left: 154px;
+    top: 105px;
+}
+
+.rectangle {
+    position: absolute;
+    height: 144px;
+    width: 414px;
+    left: 0px;
+    top: 246px;
+    background: linear-gradient(180deg, rgba(27, 35, 42, 0) 0%, #1B232A 100%);
+}
+
+.successfull_text {
+    position: absolute;
+    height: 92px;
+    width: 350px;
+    left: 35px;
+    top: 394px;
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.0264em;
+    text-align: center;
+    color: #fff;
+}
+
+.continue_button {
+    position: absolute;
+    background-color: #5ED5A8;
+    color: #171D22;
+    border: none;
+    height: 54px;
+    width: 88.4%;
+    left: 24px;
+    top: 526px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.0264em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.blur {
+    position: absolute;
+    height: 190px;
+    width: 206px;
+    left: -105px;
+    top: -95px;
+    border-radius: 0px;
+    background-color: #5ED5A8;
+    filter: blur(150px);
+}

@@ -1,0 +1,8 @@
+.first_content {
+    height: 480px;
+    width: 100%;
+   background: #1B232A;
+   display: flex;
+   flex-direction: column;
+   
+}

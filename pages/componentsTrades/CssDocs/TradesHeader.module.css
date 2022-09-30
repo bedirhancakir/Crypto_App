@@ -1,0 +1,39 @@
+.header {
+    height: 85px;
+    width: 414px;
+    box-shadow: 0px 12px 16px 0px #161C2280;
+
+}
+
+.profile_icon {
+    position: absolute;
+    left: 24px;
+    top: 35px;
+    cursor: pointer;
+}
+
+.trades_icon_1 {
+    position: absolute;
+    left: 250px;
+    top: 35px;
+    width: 36px;
+    height: 36px;
+}
+
+.trades_icon_2 {
+    position: absolute;
+    left: 302px;
+    top: 35px;
+    width: 36px;
+    height: 36px;
+}
+
+.trades_icon_3 {
+    position: absolute;
+    left: 354px;
+    top: 35px;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+}
+

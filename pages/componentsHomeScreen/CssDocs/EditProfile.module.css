@@ -1,0 +1,182 @@
+.all_page {
+    background-color: #5ED5A8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 414px;
+    max-height: 896px;
+    width: 100%;
+    height: 100%;
+    background-color: #1B232A;
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 0.0264em;
+}
+
+.header {
+    position: absolute;
+    height: 175px;
+    width: 414px;
+    left: 0px;
+    top: 0px;
+}
+
+.header_background {
+    position: absolute;
+    height: 175px;
+    width: 414px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, rgba(27, 35, 42, 0) 0%, #5ED5A8 100%);
+    opacity: 0.1;
+}
+
+.back_icon {
+    position: absolute;
+    z-index: 1;
+    background-color: transparent;
+    border: none;
+    height: 46px;
+    width: 46px;
+    left: 15px;
+    top: 30px;
+    cursor: pointer;
+}
+
+.header_title {
+    position: absolute;
+    color: #FFFFFF;
+    height: 22px;
+    width: 100px;
+    left: 60px;
+    top: 39px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    height: 22px;
+}
+
+.view_profile {
+    position: absolute;
+    height: 424px;
+    width: 366px;
+    left: 24px;
+    top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_photo {
+    position: relative;
+    height: 110px;
+    width: 110px;
+    top: 0;
+}
+
+.profile_id {
+    margin: 10px;
+    padding: 10px;
+    background-color: #1B232A;
+    color: #FFFFFF;
+    height: 22px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    border: none;
+}
+
+.profile_id::placeholder {
+    color: #fff;
+}
+
+.profile_id:focus {
+    outline: none;
+    border-bottom: 1px solid #fff;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    list-style: none;
+}
+
+.input_panel {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25px;
+}
+
+.informations {
+    height: 14px;
+    width: 90px;
+    color: #777777;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.inputs {
+    width: 366px;
+    background-color: #1B232A;
+    border: none;
+    color: #fff;
+    padding: 5px 0 5px 5px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.0264em;
+}
+
+.inputs:focus {
+    outline: none;
+    border-bottom: 1px solid #fff;
+}
+
+.inputs::placeholder {
+    color: #fff;
+}
+
+.edit_buttons {
+    width: 100%;
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel,
+.save {
+    height: 54px;
+    width: 179px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.0264em;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.cancel {
+    color: #fff;
+    background-color: #777777;
+}
+
+.save {
+    color: #171D22;
+    background-color: #5ED5A8;
+}

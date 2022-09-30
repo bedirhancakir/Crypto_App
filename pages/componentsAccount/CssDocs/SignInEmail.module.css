@@ -1,0 +1,170 @@
+.Content {
+    position: relative;
+    top: 40px;
+    height: 648px;
+    width: 367px;
+    letter-spacing: 0.0264em;
+    background-color: transparent;
+}
+
+.si_title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+    color: #fff;
+}
+
+.email_title {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 17px;
+    width: 100%;
+    top: 90px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #A7AFB7;
+}
+
+.other_platform {
+    color: #5ED5A8;
+    cursor: pointer;
+}
+
+.email_bar {
+    position: absolute;
+    background-color: #161C22;
+    height: 54px;
+    width: 100%;
+    top: 120px;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    line-height: 17px;
+    letter-spacing: 0.0264em;
+    border-radius: 12px;
+    outline: none;
+}
+
+.password_title {
+    position: absolute;
+    color: #C1C7CD;
+    top: 204px;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+}
+
+.password_bar {
+    position: absolute;
+    background-color: #161C22;
+    height: 54px;
+    width: 100%;
+    top: 233px;
+    border: none;
+    padding: 20px;
+    color: #fff;
+    line-height: 17px;
+    letter-spacing: 0.0264em;
+    border-radius: 12px;
+    outline: none;
+}
+
+.forgot_password {
+    position: absolute;
+    top: 300px;
+    color: #5ED5A8;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.last_sign_button {
+    position: absolute;
+    background-color: #5ED5A8;
+    color: #171D22;
+    height: 54px;
+    width: 100%;
+    bottom: 240px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.0264em;
+    cursor: pointer;
+    border: none;
+}
+
+.socialm_title {
+    position: absolute;
+    height: 17px;
+    width: 100%;
+    bottom: 205px;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.socialm_button1,
+.socialm_button2 {
+    position: absolute;
+    bottom: 135px;
+    height: 54px;
+    width: 173px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.0264em;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    z-index: 1;
+    cursor: pointer;
+    background: white;
+}
+
+.socialm_button1 {
+    left: 0;
+}
+
+.socialm_button2 {
+    right: 0;
+}
+
+.fingerprint {
+    position: absolute;
+    bottom: 70px;
+    height: 40px;
+    width: 40px;
+    left: 163px;
+}
+
+.rectangle3 {
+    position: absolute;
+    bottom: -47px;
+    left: -24px;
+    width: 414px;
+    height: 304px;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(22, 28, 34, 0) 0%, #161C22 100%);
+}
+
+.fingerprint_text {
+    position: absolute;
+    color: #A7AFB7;
+    left: 108px;
+    bottom: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 160px;
+    height: 17px;
+}
